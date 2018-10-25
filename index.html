@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <audio src="./assets/audio/starwars.wav" loop controls></audio>
+    <div class="container text-center border bg-light mt-5">
+        <h1 id="instructions">Pick a charachter</h1>
+        <div id="charachters">
+
+        </div>
+
+        <div class="fight-section row">
+
+            <div class="col-lg-5" id="attacker">
+                <h2>Attacker</h2>
+            </div>
+            <div class="col-lg-2 text-center" id="attack">
+                <h5 class="mt-5">Attack</h5>
+                <img src="./assets/images/attack.png" alt="">
+            </div>
+
+            <div class="col-lg-5" id="deffender">
+                <h2>Deffender</h2>
+            </div>
+            <p class="log col-lg-12 text-muted" id="log">
+
+            </p>
+
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/pexels-photo-1205301.jpeg");
+}
+
+.container {
+  min-height: 900px;
+}
+
+.player-card {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  background-color: #ddd;
+  margin: 10px;
+  cursor: pointer;
+  border: 1px dashed #444;
+}
+.player-card h3 {
+  color: #444;
+  font-size: 20px;
+}
+.player-card h4 {
+  color: #666;
+  font-size: 15px;
+  margin: 0px;
+}
+.player-card span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  float: right;
+  clear: both;
+}
+
+.player-card img {
+  width: 100%;
+  height: 60%;
+  margin: 0px;
+}
+
+.fight-section {
+  display: none;
+}
+
+#attack img {
+  width: 50px;
+  height: 50px;
+  margin: 50px auto;
+  cursor: pointer;
+}
